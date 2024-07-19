@@ -1,0 +1,38 @@
+{
+    "projects": [
+        {
+            "name": "SocialSite",
+            "technologies": ["React.js", "TypeScript", "ReduxTlk", "HTML/CSS", "Node.js", "Nest.js", "Mongoose", "MongoDB"],
+            "preview": [
+                "https://i.ibb.co/5YwJKKV/2024-07-15-192455.png", 
+                "https://i.ibb.co/nC8KQBK/2024-07-15-185758.png",
+                "https://i.ibb.co/ykzG2W8/2024-07-15-184245.png",
+                "https://i.ibb.co/2qqg4NG/2024-07-15-183136.png"
+
+            ],
+            "structure": "Проект состоит из 3 компонентов: Фронтенд - написан на реакт, используется реактовский сервер и навигация по страницам происходит через реакт роутер Бэкенд - написан на nest, является rest api для взаимодействия с дата базой Дата-база - в качестве хранения данных пользователей я использую MongoDB",
+            "information" : {
+                "status": "in progress",
+                "ip": "234.231.22.132",
+                "code": "https://github.com/Alec-litho/app_for_LupisVulpes_site/tree/main/root"
+            }
+        },
+        {
+            "name": "BattleSeaGame",
+            "technologies": ["React.js", "TypeScript", "ReduxTlk", "HTML/CSS", "Node.js", "Nest.js", "Mongoose", "MongoDB"],
+            "preview": [
+                "https://i.ibb.co/6bXLx08/2024-07-15-195325.png", 
+                "https://i.ibb.co/dbshTyh/2024-07-15-195209.png",
+                "https://i.ibb.co/pny7P69/2024-07-15-213047.png"
+
+            ],
+            "structure": "Проект состоит из 3 компонентов: Фронтенд - написан на реакт, используется реактовский сервер и навигация по страницам происходит через реакт роутер Бэкенд - написан на nest, является rest api для взаимодействия с дата базой Дата-база - в качестве хранения данных пользователей я использую MongoDB",
+            "information" : {
+                "status": "in progress",
+                "ip": "234.231.22.132",
+                "code": "https://github.com/Alec-litho/app_for_LupisVulpes_site/tree/main/root"
+            }
+        }
+    ]
+
+}

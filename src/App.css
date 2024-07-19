@@ -1,0 +1,32 @@
+
+:root {
+  --font-color-default: white;
+  --font-color-fancy: rgb(242,135,58);
+}
+a, p, h1, h2, h3, h4, h5 {
+  font-family: "Average", serif;
+}
+h1 {font-size: 115px; font-weight: 400; color: white; margin: 0; padding: 10px 10px 0 10px;}
+h2, span {font-size: 96px;   font-family: "Anton", sans-serif;}
+h2 {color:white; margin: 0;}
+h3 {color: white; font-size: 40px; font-weight: 400; margin: 0;}
+h4 {font-size: 32px; font-weight: 400}
+span {color: rgba(240, 248, 255, 0);  font-weight: 400; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:rgb(255, 255, 255);}
+p {font-size: 24px; font-weight: 600; color: white; margin: 0;}
+.app {
+  background-color: rgb(54, 54, 54);
+  background-image: url("../public/background.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}

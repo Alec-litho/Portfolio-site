@@ -1,0 +1,16 @@
+
+.present {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+.presentHeader {
+    border: 5px solid white;
+}
+.presentDescription {
+    width: 40%;
+    text-align: center;
+    color: rgb(212, 212, 212);
+}

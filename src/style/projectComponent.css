@@ -1,0 +1,85 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.projectPreview {
+    display: flex;
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+.leftSide {
+    width: 35%;
+
+}
+.rightSide {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.projectName {
+    position: absolute;
+}
+.projectPreview.socialSite .projectName {
+    left: 165px;
+    top: 10px;
+}
+.projectPreview.socialSite .rightSide {border-top: 5px solid white; border-right: 5px solid white;}
+.projectInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.projectPreview.seaBattleGame .leftSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%; 
+    border-top: 5px solid white; 
+    border-left: 5px solid white;}
+.projectPreview.seaBattleGame .rightSide {width:35%;}
+
+.projectPreview.seaBattleGame .projectName{
+    left: 340px;
+    top: 10px;
+}
+.projectPreview.seaBattleGame .description {
+    width: 500px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.option {
+    border: 3px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.option.active {
+    border: 3px solid var(--font-color-fancy)
+}
+.option.active h3 {
+    transition: .2s;
+    color: var(--font-color-fancy);
+}
+.window {
+    height: 550px;
+    border: 5px solid white;
+}
+.informationComponent{
+    padding: 30px 50px ;
+}
+.status, .ip, .code {display: flex; align-items: center; gap: 30px;}
+.informationComponent h3 {
+    color: var(--font-color-fancy);
+}
