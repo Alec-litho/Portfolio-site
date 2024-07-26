@@ -1,12 +1,17 @@
 import { useState } from "react"
 import "../style/projectComponent.css"
 import Slider from "./Slider"
+import ProjectPreviewSocialSite from "./ProjectPreviewSocialSite"
+import ProjectPreviewLupisVulpesSite from "./ProjectPreviewLupisVulpesSite"
+import ProjectPreviewSeaBattleGame from "./ProjectPreviewSeaBattleGame"
+import ProjectPreviewNewsSite from "./ProjectPreviewNewsSite"
 
 export default function Project({project}) {
     const projectPreviews = {
         "SocialSite":<ProjectPreviewSocialSite/>,
         "LupisVulpesSite": <ProjectPreviewLupisVulpesSite/>,
-        "BattleSeaGame": <ProjectPreviewSeaBattleGame/>
+        "BattleSeaGame": <ProjectPreviewSeaBattleGame/>,
+        "NewsSite": <ProjectPreviewNewsSite/>
     }
     return (
         <div className="project">
@@ -48,67 +53,7 @@ function ProjectInfo({projectInformation}) {
     )
 }
 
-function ProjectPreviewSocialSite() {
 
-    return (
-        <div className="projectPreview socialSite">
-            <div className="projectName">
-                <h2>Social<span> site</span></h2>
-            </div>
-            <div className="leftSide">
-                <img src="./socialSite-preview.png" alt="" />
-            </div>
-            <div className="rightSide">
-                <div className="description">
-                    <p>Этот проект является социальной сетью, в которой есть многие функции присущее любым социальным сетям: 
-                        <br/>- Создание собственной страницы и просмотр страниц других людей 
-                        <br/>- Создание просмотр постов, как своих, так и других людей 
-                        <br/>- Комментирование, возможность поставить оценку, ответ на комментарий и оценка комментария 
-                        <br/>- Управление собственной галерей, создание альбомов, создание фото и просмотр этих фото</p>
-                    <a href="#">see more...</a>
-                </div>
-            </div>
-        </div>
-    )
-}
-function ProjectPreviewSeaBattleGame() {
-    
-    return (
-        <div className="projectPreview seaBattleGame">
-            <div className="projectName">
-                <h2>Battle-sea<span>game</span></h2>
-            </div>
-            <div className="leftSide">
-                <div className="description">
-                    <p>Этот проект является социальной сетью, в которой есть многие функции присущее любым социальным сетям: Создание собственной страницы и просмотр страниц других людей Создание просмотр постов, как своих, так и других людей Комментирование, возможность поставить оценку, ответ на комментарий и оценка комментария Управление собственной галерей, создание альбомов, создание фото и просмотр этих фото</p>
-                    <a href="#">see more...</a>
-                </div>
-            </div>
-            <div className="rightSide">
-                <img src="./battleSeaGame-preview.png" alt="" />
-            </div>
-        </div>
-    )
-}
-function ProjectPreviewLupisVulpesSite() {
-    
-    return (
-        <div className="projectPreview seaBattleGame">
-            <div className="projectName">
-                <h2>Social<span>site</span></h2>
-            </div>
-            <div className="leftSide">
-                <img src="../../public/socialSite-preview.png" alt="" />
-            </div>
-            <div className="rightSide">
-                <div className="description">
-                    <p>Этот проект является социальной сетью, в которой есть многие функции присущее любым социальным сетям: Создание собственной страницы и просмотр страниц других людей Создание просмотр постов, как своих, так и других людей Комментирование, возможность поставить оценку, ответ на комментарий и оценка комментария Управление собственной галерей, создание альбомов, создание фото и просмотр этих фото</p>
-                    <a href="#">see more...</a>
-                </div>
-            </div>
-        </div>
-    )
-}
 function InfoComponent({optionInfo}) {
 
     return (
@@ -121,7 +66,7 @@ function InfoComponent({optionInfo}) {
 function TechnologiesComponent({technologies}) {
 
     return (
-        <div>
+        <div className="technologiesComponent">
             <ul>
                 {technologies.map(tech => <li><p>{tech}</p></li>)}
             </ul>
@@ -132,8 +77,13 @@ function TechnologiesComponent({technologies}) {
 function ProjectStructureComponent({structureDescription}) {
 
     return (
-        <div>
-            <p>{structureDescription}</p>
+        <div className="projectStructure">
+            <div className="descriptionContainer">
+                <p>{structureDescription.description}</p>
+            </div>
+            <div className="imgContainer">
+                <img src={structureDescription.image} alt="#" />
+            </div>
         </div>
     )
 }

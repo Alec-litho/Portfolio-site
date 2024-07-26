@@ -2,6 +2,7 @@
 :root {
   --font-color-default: white;
   --font-color-fancy: rgb(242,135,58);
+  --font-color-fancy-darker:  rgb(220, 114, 52);
 }
 a, p, h1, h2, h3, h4, h5 {
   font-family: "Average", serif;
@@ -15,9 +16,7 @@ span {color: rgba(240, 248, 255, 0);  font-weight: 400; -webkit-text-stroke-widt
 p {font-size: 24px; font-weight: 600; color: white; margin: 0;}
 .app {
   background-color: rgb(54, 54, 54);
-  background-image: url("../public/background.png");
-  background-repeat: no-repeat;
-  background-size:cover;
+
 }
 
 .wrapper {

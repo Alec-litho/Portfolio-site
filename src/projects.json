@@ -2,6 +2,7 @@
     "projects": [
         {
             "name": "SocialSite",
+            "description": "Этот проект является социальной сетью, в которой есть многие функции присущее любым социальным сетям: - Создание собственной страницы и просмотр страниц других людей - Создание просмотр постов, как своих, так и других людей - Комментирование, возможность поставить оценку, ответ на комментарий и оценка комментария - Управление собственной галерей, создание альбомов, создание фото и просмотр этих фото",
             "technologies": ["React.js", "TypeScript", "ReduxTlk", "HTML/CSS", "Node.js", "Nest.js", "Mongoose", "MongoDB"],
             "preview": [
                 "https://i.ibb.co/5YwJKKV/2024-07-15-192455.png", 
@@ -10,8 +11,10 @@
                 "https://i.ibb.co/2qqg4NG/2024-07-15-183136.png"
 
             ],
-            "structure": "Проект состоит из 3 компонентов: Фронтенд - написан на реакт, используется реактовский сервер и навигация по страницам происходит через реакт роутер Бэкенд - написан на nest, является rest api для взаимодействия с дата базой Дата-база - в качестве хранения данных пользователей я использую MongoDB",
-            "information" : {
+            "structure": {
+                "description": "Проект состоит из 3 компонентов: Фронтенд - написан на реакт, используется реактовский сервер и навигация по страницам происходит через реакт роутер Бэкенд - написан на nest, является rest api для взаимодействия с дата базой Дата-база - в качестве хранения данных пользователей я использую MongoDB",
+                "image": "null"
+            },            "information" : {
                 "status": "in progress",
                 "ip": "234.231.22.132",
                 "code": "https://github.com/Alec-litho/app_for_LupisVulpes_site/tree/main/root"
@@ -19,18 +22,66 @@
         },
         {
             "name": "BattleSeaGame",
-            "technologies": ["React.js", "TypeScript", "ReduxTlk", "HTML/CSS", "Node.js", "Nest.js", "Mongoose", "MongoDB"],
+            "description": "This project is classic battleship game. The motivation for developing this project was to try something different than web app and also to try new techologies such as socket.io and nest.js. Also, this project uses many principles of OOP and consists of classes and object that have different types of relationship between each over. This project is more focused on back-end and game logic rather UI",
+            "technologies": ["TypeScript", "Node.js", "HTML/CSS", "Socket.io", "Nest.js"],
             "preview": [
                 "https://i.ibb.co/6bXLx08/2024-07-15-195325.png", 
                 "https://i.ibb.co/dbshTyh/2024-07-15-195209.png",
                 "https://i.ibb.co/pny7P69/2024-07-15-213047.png"
 
             ],
-            "structure": "Проект состоит из 3 компонентов: Фронтенд - написан на реакт, используется реактовский сервер и навигация по страницам происходит через реакт роутер Бэкенд - написан на nest, является rest api для взаимодействия с дата базой Дата-база - в качестве хранения данных пользователей я использую MongoDB",
+            "structure": {
+                "description": "",
+                "image": "https://i.ibb.co/w4RdbN9/sea-battle-game-drawio.png"
+            },
+            "information" : {
+                "status": "finished",
+                "ip": "234.231.22.132",
+                "code": "https://github.com/Alec-litho/Sea-battle-game"
+            }
+        },
+        {
+            "name": "LupisVulpesSite",
+            "description":"This project is heavily inspired by artist and animator LupisVulpes. As fan of her art i decided to dedicate website to her. But most importantly this website is archive and guide to new people who recently discover this artist and want to learn more about her art. Since she started her art path more than 10 years ago, it's hard to learn about her old art since a lot of arts/animations are deleted/lost/forgotten and this website came to help all this people by providing - art and animation gallery, - information of all characters ever created, - presentation of her art path ",
+            "technologies": ["TypeScript", "React.js", "HTML/CSS", "php", "Laravel", "MySQL"],
+            "preview": [
+                "https://i.ibb.co/BTq1cMp/2024-07-22-213555.png", 
+                "https://i.ibb.co/6mX4kfh/2024-07-22-213536.png",
+                "https://i.ibb.co/3yCHLJX/2024-07-22-213519.png",
+                "https://i.ibb.co/JkN50HF/2024-07-22-213439.png"
+
+            ],
+            "structure": {
+                "description": "This project consists of two main components, website itself and web app for saving pictures, animations, characters information and other information needed to website",
+                "image": ""
+            },
             "information" : {
                 "status": "in progress",
                 "ip": "234.231.22.132",
-                "code": "https://github.com/Alec-litho/app_for_LupisVulpes_site/tree/main/root"
+                "code": "https://github.com/Alec-litho/app_for_LupisVulpes_site",
+                "design": "https://www.figma.com/design/dUIYWPiZf4r78kEFlSZKNb/Untitled?node-id=0-1&t=9yYZ3dDXcMB1iM7n-1"
+            }
+        },
+        {
+            "name": "NewsSite",
+            "description":"This project is attempt to make convenient way of reading and finding news. User should be able to find news, use multiple filters and to have ability customize home page by changing theme, adding/removing windows.",
+            "technologies": ["Next.js","ReduxTlk", "Node.js", "HTML/CSS", "MongoDB"],
+            "preview": [
+                "https://i.ibb.co/YWqv91m/2024-07-22-211457.png", 
+                "https://i.ibb.co/RgGFXQR/2024-07-22-211322.png",
+                "https://i.ibb.co/Vt6cYxR/2024-07-22-211225.png",
+                "https://i.ibb.co/0BDFZ8c/2024-07-22-211208.png"
+
+            ],
+            "structure": {
+                "description": "This project consists of two main components, website itself and web app for saving pictures, animations, characters information and other information needed to website",
+                "image": ""
+            },
+            "information" : {
+                "status": "cancelled",
+                "ip": "234.231.22.132",
+                "code": "https://github.com/Alec-litho/news_site",
+                "design": "https://www.figma.com/design/Rtbof3qGrsDDvvtbMT1wOD/Untitled?node-id=0-1&t=iGFNbLUl29wwjfA9-1"
             }
         }
     ]

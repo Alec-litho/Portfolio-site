@@ -17,6 +17,7 @@ export default function Main() {
             <div className="projects">
                 {data.projects.map(el => {return <Project project={el} key={Math.random()*1000}/>})}
             </div>
+            <div className="footer"></div>
         </div>
     )
 }
