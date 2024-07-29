@@ -1,13 +1,13 @@
-
+import "../style/socialSitePreview.css"
 
 export default function ProjectPreviewSocialSite() {
 
     return (
         <div className="projectPreview socialSite">
+            <div className="leftSide">
             <div className="projectName">
                 <h2>Social<span> site</span></h2>
             </div>
-            <div className="leftSide">
                 <img src="./socialSite-preview.png" alt="" />
             </div>
             <div className="rightSide">
@@ -19,7 +19,6 @@ export default function ProjectPreviewSocialSite() {
                     <br/> - Commenting, liking, reply to a comment and like a comment 
                     <br/> - Managing your own gallery , creating albums, taking photos and viewing these photos
                 </p>
-                    <a href="#" className="seeMoreBtn">see more...</a>
                 </div>
             </div>
         </div>

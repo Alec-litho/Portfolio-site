@@ -23,9 +23,12 @@
 }
 .leftSide {
     width: 35%;
+    position: relative;
 
 }
 .rightSide {
+    position: relative;
+
     width: 65%;
     display: flex;
     align-items: center;
@@ -33,69 +36,17 @@
     padding: 0 20px;
 }
 .projectName {
+    display: block;
     position: absolute;
+    width: auto;
 }
-.projectPreview.socialSite .projectName {
-    left: 165px;
-    top: 10px;
-}
-.projectPreview.socialSite .rightSide {border-top: 5px solid white; border-right: 5px solid white;}
-.projectInfo{
+.rightSide img, .leftSide img, .topSide img, .bottomSide img {
+    max-width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
     display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-.projectPreview.socialSite .rightSide .description {margin-top: 40px;}
-.projectPreview.seaBattleGame .leftSide {
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    width: 65%; 
-    border-top: 5px solid white; 
-    border-left: 5px solid white;}
-.projectPreview.seaBattleGame .rightSide {width:35%;}
-
-.projectPreview.seaBattleGame .projectName{
-    left: 340px;
-    top: 10px;
-}
-.projectPreview.seaBattleGame .description {
-    width: 100%;
-}
-.projectPreview.lupisVulpesSite {
-    border-right: 5px solid white;
-    border-bottom: 5px solid white;
-    display: flex;
-    flex-direction: column;
-}
-.projectPreview.lupisVulpesSite .projectName {
-    left: 505px;
-}
-.projectPreview.newsSite {
-    border-top: 5px solid white;
-    border-left: 5px solid white;
-}
-.projectPreview.newsSite .projectName {
-    left: 550px;
-    top: 110px;
-    line-height: 100px;
-
-}
-.projectPreview.newsSite .leftSide {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    padding: 0 20px;
-
-}
-.projectPreview.newsSite .leftSide .description {
-
-}
-.projectPreview.newsSite .rightSide {
-    width: 50%;
-    display: flex;
-    align-items: flex-end;
+    object-fit: cover; 
 }
 
 .menu {
@@ -116,7 +67,7 @@
     color: var(--font-color-fancy);
 }
 .window {
-    height: 550px;
+    max-height: 550px;
     border: 5px solid white;
 }
 .informationComponent{
@@ -138,28 +89,20 @@
 }
 .projectStructure {display: flex; align-items: center; height: 100%;}
 .descriptionContainer {width: 50%;}
-.imgContainer {width: 50%; display: flex;justify-content: center; align-items: center;}
-.projectStructure img {
-    height: 530px;
-    width: auto;
-}
-.seeMoreBtn {
-    transition: .2s;
-    margin-top: 30px;
+.imgContainer {
+    width: 50%; 
+    height: 100%;
     display: flex;
+    justify-content: center; 
     align-items: center;
     justify-content: center;
-    width: 160px;
-    height: 40px;
-    border-radius: 30px;
-    font-size: 24px;
-    color: white;
-    font-weight: 600;
-    text-decoration: none;
-    background-color: var(--font-color-fancy);
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    object-fit: cover; 
 }
-.seeMoreBtn:hover {
-    background-color: var(--font-color-fancy-darker);
-
-
+.projectStructure img {
+    height: 70%;
+    width: auto;
 }

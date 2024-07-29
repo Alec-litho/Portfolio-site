@@ -1,0 +1,20 @@
+.projectPreview.seaBattleGame .rightSide {width:35%;}
+.projectPreview.seaBattleGame .leftSide {
+    display: flex;
+    flex-direction: column;
+}
+.projectPreview.seaBattleGame .projectName{
+    position: relative;
+    left: 0;
+    top: 10px;
+}
+.projectPreview.seaBattleGame .description {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) { 
+    .projectPreview.socialSite .projectName {
+        left: 0;
+        top: 10px;
+    }
+}

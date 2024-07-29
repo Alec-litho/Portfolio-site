@@ -1,0 +1,27 @@
+
+.projectPreview.socialSite .projectName {
+    left: 0px;
+    top: 10px;
+}
+.projectPreview.socialSite .rightSide {border-top: 5px solid white; border-right: 5px solid white;}
+.projectInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.projectPreview.socialSite .rightSide .description {margin-top: 100px;}
+.projectPreview.seaBattleGame .leftSide {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%; 
+    border-top: 5px solid white; 
+    border-left: 5px solid white;}
+
+@media only screen and (max-width: 768px) { 
+    .projectPreview.socialSite .projectName {
+        left: 0;
+        top: 10px;
+    }
+}
