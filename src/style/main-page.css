@@ -1,4 +1,7 @@
+.main {
+    position: relative;
 
+}
 .present {
     display: flex;
     flex-direction: column;
@@ -13,4 +16,32 @@
     width: 40%;
     text-align: center;
     color: rgb(212, 212, 212);
+}
+
+.imagePresenter {
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    left: 0;
+    top: 0;
+
+}
+.imagePresenter.active {display: flex;}
+.imagePresenter.active img {
+    width: 85%;
+    height: auto;    
+    z-index: 101;
+
+}
+.bg {display: none;}
+.imagePresenter.active .bg {
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.62);
+    width: 100%;
+    height: 100%;
 }

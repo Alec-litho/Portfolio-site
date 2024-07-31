@@ -10,8 +10,8 @@ a, p, h1, h2, h3, h4, h5 {
 h1 {font-size: 115px; font-weight: 400; color: white; margin: 0; padding: 10px 10px 0 10px;}
 h2, span {font-size: 110px;   font-family: "Anton", sans-serif;}
 h2 {color:white; margin: 0;}
-h3 {color: white; font-size: 40px; font-weight: 400; margin: 0;}
-h4 {font-size: 32px; font-weight: 400}
+h3 {color: white; font-size: 36px; font-weight: 400; margin: 0;}
+h4 {font-size: 32px; font-weight: 400;  padding: 0; margin: 0;}
 span {color: rgba(240, 248, 255, 0);  font-weight: 400; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:rgb(255, 255, 255);}
 p {font-size: 24px; font-weight: 600; color: white; margin: 0;}
 .app {
@@ -40,7 +40,7 @@ p {font-size: 24px; font-weight: 600; color: white; margin: 0;}
   h2, span {font-size: 75px;   font-family: "Anton", sans-serif;}
   h2 {color:white; margin: 0;}
   h3 {color: white; font-size: 20px; font-weight: 400; margin: 0;}
-  h4 {font-size: 24px; font-weight: 400}
+  h4 {font-size: 24px; font-weight: 400;  padding: 0; margin: 0;}
   span {color: rgba(240, 248, 255, 0);  font-weight: 400; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:rgb(255, 255, 255);}
   p {font-size: 20px; font-weight: 600; color: white; margin: 0;}
   .app {
@@ -56,12 +56,32 @@ p {font-size: 24px; font-weight: 600; color: white; margin: 0;}
     font-family: "Average", serif;
   }
   h1 {font-size: 86px; font-weight: 400; color: white; margin: 0; padding: 10px 10px 0 10px;}
-  h2, span {font-size: 75px;   font-family: "Anton", sans-serif;}
+  h2, span {font-size: 64px;   font-family: "Anton", sans-serif;}
   h2 {color:white; margin: 0;}
-  h3 {color: white; font-size: 20px; font-weight: 400; margin: 0;}
-  h4 {font-size: 24px; font-weight: 400}
+  h3 {color: white; font-size: 17px; font-weight: 400; margin: 0;}
+  h4 {font-size: 24px; font-weight: 400;  padding: 0; margin: 0;}
   span {color: rgba(240, 248, 255, 0);  font-weight: 300; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:rgb(255, 255, 255);}
   p {font-size: 16px; font-weight: 600; color: white; margin: 0;}
+  .app {
+    background-color: rgb(54, 54, 54);
+  
+  }
+
+
+}
+
+@media only screen and (max-width: 420px) {
+    
+  a, p, h1, h2, h3, h4, h5 {
+    font-family: "Average", serif;
+  }
+  h1 {font-size: 64px; font-weight: 400; color: white; margin: 0; padding: 10px 10px 0 10px;}
+  h2, span {font-size: 48px;   font-family: "Anton", sans-serif;}
+  h2 {color:white; margin: 0;}
+  h3 {color: white; font-size: 15px; font-weight: 400; margin: 0;}
+  h4 {font-size: 18px; font-weight: 400;  padding: 0; margin: 0;}
+  span {color: rgba(240, 248, 255, 0);  font-weight: 300; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:rgb(255, 255, 255);}
+  p {font-size: 14px; font-weight: 600; color: white; margin: 0;}
   .app {
     background-color: rgb(54, 54, 54);
   

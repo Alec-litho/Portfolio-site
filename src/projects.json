@@ -16,7 +16,7 @@
                 "image": "null"
             },            "information" : {
                 "status": "in progress",
-                "ip": "234.231.22.132",
+                "link": "234.231.22.132",
                 "code": "https://github.com/Alec-litho/app_for_LupisVulpes_site/tree/main/root"
             }
         },
@@ -36,7 +36,7 @@
             },
             "information" : {
                 "status": "finished",
-                "ip": "234.231.22.132",
+                "link": "234.231.22.132",
                 "code": "https://github.com/Alec-litho/Sea-battle-game"
             }
         },
@@ -57,7 +57,7 @@
             },
             "information" : {
                 "status": "in progress",
-                "ip": "234.231.22.132",
+                "link": "234.231.22.132",
                 "code": "https://github.com/Alec-litho/app_for_LupisVulpes_site",
                 "design": "https://www.figma.com/design/dUIYWPiZf4r78kEFlSZKNb/Untitled?node-id=0-1&t=9yYZ3dDXcMB1iM7n-1"
             }
@@ -79,7 +79,7 @@
             },
             "information" : {
                 "status": "cancelled",
-                "ip": "234.231.22.132",
+                "link": "234.231.22.132",
                 "code": "https://github.com/Alec-litho/news_site",
                 "design": "https://www.figma.com/design/Rtbof3qGrsDDvvtbMT1wOD/Untitled?node-id=0-1&t=iGFNbLUl29wwjfA9-1"
             }

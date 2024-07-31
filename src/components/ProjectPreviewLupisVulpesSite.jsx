@@ -1,7 +1,7 @@
 import "../style/lupisVulpesSitePreview.css"
 
 export default function ProjectPreviewLupisVulpesSite() {
-    
+     
     return (
         <div className="projectPreview lupisVulpesSite">
             <div className="topSide">

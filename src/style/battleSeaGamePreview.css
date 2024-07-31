@@ -1,20 +1,46 @@
 .projectPreview.seaBattleGame .rightSide {width:35%;}
+
 .projectPreview.seaBattleGame .leftSide {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 65%; 
+    border-top: 5px solid white; 
+    border-left: 5px solid white;
 }
+
 .projectPreview.seaBattleGame .projectName{
-    position: relative;
+    position: absolute;
     left: 0;
-    top: 10px;
+    top: 20px;
 }
 .projectPreview.seaBattleGame .description {
     width: 100%;
-}
+    margin-top: 250px;
 
-@media only screen and (max-width: 768px) { 
-    .projectPreview.socialSite .projectName {
-        left: 0;
-        top: 10px;
+}
+.projectPreview.seaBattleGame .description p {
+    padding: 0 20px;
+
+}
+@media only screen and (max-width: 1530px) { 
+    .projectPreview.seaBattleGame .description {
+        margin-top: 350px;
+        width: 100%;
     }
+    
+}
+@media only screen and (max-width: 768px) { 
+    .projectPreview.seaBattleGame .description {
+        margin-top: 250px;
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 420px) { 
+    .projectPreview.seaBattleGame .description {
+        margin-top: 180px;
+        width: 100%;
+    }
+
 }

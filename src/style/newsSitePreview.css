@@ -13,12 +13,15 @@
     padding: 0 20px;
 
 }
-.projectPreview.newsSite .leftSide .description {
+.projectPreview.newsSite .leftSide .description {padding-top: 20px;}
 
-}
 .projectPreview.newsSite .rightSide {
+    position: relative;
     width: 50%;
     display: flex;
+}
+.projectPreview.newsSite .rightSide h2 {line-height: 115px;}
+.projectPreview.newsSite .rightSide img {
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -34,4 +37,8 @@
         left: 0;
         top: 10px;
     }
+}
+@media only screen and (max-width: 450px) { 
+    .projectPreview.newsSite .rightSide h2 {line-height: 90px;}
+
 }
