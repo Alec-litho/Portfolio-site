@@ -13,7 +13,7 @@ export default function Main() {
                     <h1>My projects</h1>
                 </div>
                 <div className="presentDescription">
-                    <h4>Turbo don't give up! Without fish to work with, you can’t fish the pond out  Turbo </h4>
+                    <h4>This is compilation of all my projects. You can see them online, see their code and description</h4>
                 </div>
             </div>
             <div className="projects">
